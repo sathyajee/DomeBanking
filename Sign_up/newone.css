@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Estonia&family=M+PLUS+Code+Latin&family=Nunito:ital,wght@1,300&family=Outfit:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#Sign_up_bd{
+    background-color: #7f8fa6;
+}
+
+header{
+    margin: 30px;
+}
+
+.Signup_container{
+    height: 61vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    top: 20vh;
+}
+
+.content1{
+    background-color: #192a56;
+    width: 28vw;
+}
+
+#Sw{
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+    top: 7vh;
+    left: 2vw;
+}
+
+#Sdb{
+    font-family: 'M PLUS Code Latin', sans-serif;
+    position: relative;
+    top: 17vh;
+    left: 2vw;
+}
+
+.signup_content{
+    width: 28vw;
+    background-color: #dcdde1;
+    display: grid;
+    overflow: scroll;
+}
+
+/* #Sf2{
+    margin: 12px;
+} */
+
+.name{
+    font-family: 'Nunito', sans-serif;
+    margin: 12px;
+}
+
+.Inputs{
+    display: grid;
+    border-start-start-radius: 4px;
+    border-end-end-radius: 4px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#Sf9 > input:nth-child(1) {
+    padding: 2px 8px;
+    border-start-start-radius: 5px;
+    border-end-end-radius: 5px;
+    font-family: 'Bebas Neue', cursive;
+   }
+#Login_1{
+    margin-left: 100px;
+    /* font-family: 'Estonia', cursive; */
+    font-family: 'Dancing Script', cursive;
+    color: #30336b;
+    font-style: unset;
+}
+
+.low {
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 44px;
+    position: absolute;
+    bottom: 0px;
+    background: #000;
+    color: blueviolet;
+}
