@@ -1,0 +1,183 @@
+
+
+.wall
+{   
+    left:0;
+    top:0;
+    min-height: 100vh;
+    background-image: url('db.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.wall h1
+{
+    text-align: center;
+    font-size: 5rem;
+}
+.wall p
+{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+.alert
+{
+    min-height: 6 rem;
+    background-image: url('social-media-ga5fe32316_1920.png') ;
+    background-repeat: no-repeat;
+    
+   
+    
+    
+}
+.alert-div 
+{   
+    
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+.alert-div div
+{
+    margin-left:1rem;
+}
+#alert_message
+{
+    background: rgba(0, 0, 0, 0.17);
+    margin-top: 1px;
+    border-radius: 1rem;
+    width: 25%;
+    height: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#change_our_photo
+{
+    padding:3rem;
+    background: rgba(0, 0, 0, 0.25);
+    
+}
+
+.center{
+    
+    padding: 20px;
+    top: 50%;
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 150%;
+  
+    width : 400px;
+    background: white;
+    border-radius: 10px;
+    transition: .4s;
+   
+    /* border: 1px solid black; */
+}
+.center:hover
+{
+   
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    color: white;
+}
+.center h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+.center from{
+    padding: 0 40px;
+    box-sizing: border-box;
+    
+}
+.login
+{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+form .txt_field{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+.txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.txt_field label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+.txt_field span ::before{
+    content:'';
+    position: absolute;
+    top:40px;
+    left: 0;
+    width:100px;
+    height: 2px;
+    background: #2691d9;
+}
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label{
+    top: -5px;
+    color: #2691d9;
+}
+.txt_field input:focus ~span::before,
+.txt_field input:valid ~span::before{
+    width: 100%;
+}
+.pass{
+    margin: -5px 0 20px 5px;
+    color: #a6a6a6;
+    cursor: pointer;
+}
+.pass:hover{
+    text-decoration: underline;
+}
+#butt{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: #2691d9;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+#butt:hover{
+    border-color: #2691d9;
+    transition: .5s;
+}
+.signup_link{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+}
+.signup_link a{
+    color: #2691d9;
+    text-decoration: none;
+}
+.signup_link a:hover{
+    text-decoration:underline;
+}
+
+#Bank_Adv
+{
+
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    
+}
